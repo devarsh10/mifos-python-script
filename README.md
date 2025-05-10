@@ -89,3 +89,7 @@ The script logs its actions to both the console and a log file named `config_upd
 - **Authentication Issues**: Ensure your GitHub token has the correct permissions
 - **Java Version Not Detected**: Check that the build.gradle file contains a sourceCompatibility setting
 - **Push Failures**: Verify that you have write access to the repository
+
+## Caution
+
+- Don't make your csv bigger than you need.

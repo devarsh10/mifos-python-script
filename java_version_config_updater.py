@@ -3,7 +3,7 @@
 import os
 import sys
 import logging
-import configparser
+# import configparser
 import csv
 import re
 import git
@@ -47,14 +47,18 @@ class JavaVersionConfigUpdater:
         self.master_config_template = self._load_master_config_template()
     
     def read_repositories(self):
-        """Read the repository list from CSV file."""
+        """Read the repository list from CSV file, ignoring comment lines that start with #."""
         repos = []
         file_ext = Path(self.repo_file).suffix.lower()
         
         try:
             if file_ext == '.csv':
                 with open(self.repo_file, 'r') as file:
-                    reader = csv.DictReader(file)
+                    # Read all lines first to filter out comments
+                    csv_lines = [line for line in file if not line.strip().startswith('#')]
+                    
+                    # Create a CSV reader from the filtered lines
+                    reader = csv.DictReader(csv_lines)
                     for row in reader:
                         repos.append({
                             'url': row['repository_url'],

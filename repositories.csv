@@ -1,2 +1,31 @@
 repository_url,branch
-https://github.com/devarsh10/ph-ee-connector-ams-mifos,feature/branch-to-delete
+https://github.com/openMF/ph-ee-connector-ams-mifos,gaz-12
+
+# https://github.com/devarsh10/ph-ee-connector-channel,v1.11.0-gazelle-1.1.0
+# https://github.com/devarsh10/ph-ee-bulk-processor,v1.12.0-gazelle-1.1.0
+# https://github.com/devarsh10/ph-ee-connector-bulk,v1.1.0-gazelle-1.1.0
+
+# https://github.com/devarsh10/ph-ee-env-labs, 
+# https://github.com/devarsh10/ph-ee-env-template, 
+# https://github.com/devarsh10/ph-ee-importer-rdbms
+# https://github.com/devarsh10/ph-ee-importer-es,
+# https://github.com/devarsh10/ph-ee-operations-app,
+# https://github.com/devarsh10/ph-ee-connector-slcb,
+# https://github.com/devarsh10/ph-ee-zeebe-ops,
+# https://github.com/devarsh10/ph-ee-exporter,
+# https://github.com/devarsh10/ph-ee-connector-ams-paygops,
+# https://github.com/devarsh10/ph-ee-connector-ams-pesa,
+# https://github.com/devarsh10/ph-ee-connector-mpesa,
+# https://github.com/devarsh10/ph-ee-notifications,
+# https://github.com/devarsh10/ph-ee-connector-mojaloop-java,
+# https://github.com/devarsh10/ph-ee-identity-account-mapper,
+# https://github.com/devarsh10/ph-ee-connector-mock-payment-schema,
+# https://github.com/devarsh10/ph-ee-connector-gsma-mm,
+# https://github.com/devarsh10/ph-ee-vouchers,
+# https://github.com/devarsh10/ph-ee-connector-crm,
+# https://github.com/devarsh10/ph-ee-bill-pay,
+# https://github.com/devarsh10/ph-ee-operations-web, 
+# https://github.com/devarsh10/ph-ee-connector-common, 
+# https://github.com/devarsh10/ph-ee-integration-test, 
+# https://github.com/devarsh10/ph-ee-env-labs, 
+# https://github.com/devarsh10/ph-ee-env-template, 
